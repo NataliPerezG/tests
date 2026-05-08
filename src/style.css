@@ -1,0 +1,23 @@
+@import './css/varables.css';
+@import './css/header.css';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: ghostwhite;
+  color: #333;
+}
+
+
+@media (--tablet) {
+  body {
+    background-color: #333;
+    color: #ccc;
+  }
+}
