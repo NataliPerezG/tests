@@ -3,6 +3,6 @@ import './js/scope';
 
 
 
-console.log('vinculado');
+
 
 
