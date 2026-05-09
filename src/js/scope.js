@@ -1,8 +1,18 @@
-
-const suma = () => {
-    return 2 + 2;
+function makeAdder(x) {
+    return function (y) {
+        return x + y
+    }
 }
 
-const ver = suma()
+let base = makeAdder(4);
+let add5 = base(5)
+let add10 = base(10)
 
-console.log(ver);
+console.log(add5);
+console.log(add10);
+console.log(add10);
+console.log(add10);
+console.log(add5);
+
+
+
